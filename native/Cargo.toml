@@ -1,0 +1,17 @@
+[package]
+name = "threadr"
+version = "0.1.0"
+authors = ["Maritz Motivation Solutions, Inc. <ryan.coleman@maritz.com>"]
+license = "MIT"
+build = "build.rs"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "threadr"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.3.1"
+
+[dependencies]
+neon = "0.3.1"
