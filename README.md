@@ -1,4 +1,6 @@
-# threadr (work in progress)
+# threadr
+
+> NOTE: I have abandoned this project because Node now has Worker Threads.
 
 A node.js module for spawning processes in separate threads.
 
